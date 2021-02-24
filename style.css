@@ -1,0 +1,41 @@
+
+.container {
+    width: 1300px;
+    margin: auto;
+    padding: 0px;
+  }
+  .table_class {
+    width: 100%;
+}
+  .table h1 {
+    text-align: center;
+    color: red;
+    background: black;
+    padding: 20px 0px;
+    text-transform: uppercase;
+  }
+  body {
+    box-sizing: border-box;
+  }
+ .table_class tr th {
+    background: rgb(247, 133, 133);
+    color: white;
+    text-transform: capitalize;
+    padding: 15px 0px;
+  }
+ #tbody tr td{
+     border: 1px solid rgb(141, 141, 141);
+     text-align: center;
+ }
+ tr:nth-child(2n) {
+  background: #ddd;
+  color:#333;
+  text-align: center;
+  font-size: 16px;
+}
+tr:nth-child(2n+1) {
+  background:white;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+}
